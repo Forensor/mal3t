@@ -6,4 +6,4 @@ This program uses sqlite3 to store the moves TAI keeps doing. You can choose to 
 
 <p align="center"><img src="https://github.com/Forensor/mal3t/blob/master/img/coords.png"></p>
 For instance, if you write 'a1', the shape will be placed in the inferior left corner. All games are stored in a database with a pgn format. This means if a game has a pgn stored like 'b2a3b3b1' would look like this:
-<img src="https://github.com/Forensor/mal3t/blob/master/img/samplegame.png">
+<p align="center"><img src="https://github.com/Forensor/mal3t/blob/master/img/samplegame.png"></p>
