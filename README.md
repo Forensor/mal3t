@@ -7,3 +7,8 @@ This program uses sqlite3 to store the moves TAI keeps doing. You can choose to 
 <p align="center"><img src="https://github.com/Forensor/mal3t/blob/master/img/coords.png"></p>
 For instance, if you write 'a1', the shape will be placed in the inferior left corner. All games are stored in a database with a pgn format. This means if a game has a pgn stored like 'b2a3b3b1' would look like this:
 <p align="center"><img src="https://github.com/Forensor/mal3t/blob/master/img/samplegame.png"></p>
+
+### HOW DOES IT GET THE BEST MOVE?
+Once a position is given, TAI looks for all possible moves in that state. Then, for each one of them it queries the database to see if that movement would lead to win, to lose or the result is unknown. For example given the position 'b2a3b3b1c3a1c1', TAI would query for possible moves in the database like this:
+<p align="center"><img src="https://imgur.com/Gi8lpno"></p>
+So the move chosen will be 'a2'.
