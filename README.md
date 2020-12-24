@@ -10,5 +10,5 @@ For instance, if you write 'a1', the shape will be placed in the inferior left c
 
 ### HOW DOES IT GET THE BEST MOVE?
 Once a position is given, TAI looks for all possible moves in that state. Then, for each one of them it queries the database to see if that movement would lead to win, to lose or the result is unknown. For example given the position 'b2a3b3b1c3a1c1', TAI would query for possible moves in the database like this:
-<p align="center"><img src="https://imgur.com/Gi8lpno"></p>
+<p align="center"><img src="https://i.imgur.com/Gi8lpno.png"></p>
 So the move chosen will be 'a2'.
